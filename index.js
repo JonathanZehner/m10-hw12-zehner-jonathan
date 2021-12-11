@@ -16,3 +16,4 @@ class Car {
 }
 
 var mySweetRide = new Car('Pontiac', 'Fiero', 1988);
+mySweetRide.honk();
