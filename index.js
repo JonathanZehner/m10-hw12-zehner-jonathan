@@ -15,5 +15,4 @@ class Car {
     }
 }
 
-const mySweetRide = new Car('Pontiac', 'Fiero', 1988);
-console.log(mySweetRide);
+var mySweetRide = new Car('Pontiac', 'Fiero', 1988);
