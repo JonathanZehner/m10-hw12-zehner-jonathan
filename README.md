@@ -1,4 +1,4 @@
-<img style="float: right;" src="images/logo.png">
+<img style="float: right;" src="logo.png">
 
 m10-hw12-zehner-jonathan
 
