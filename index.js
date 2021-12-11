@@ -1,16 +1,19 @@
 // YOUR CODE HERE
 class Car {
     constructor(make, model, year) {
-        this.make = 'Jeep';
-        this.model = 'Commander';
-        this.year = 2006;
-        this.honk();
-        this.performMaintenance()
+        this.make = make;
+        this.model = model;
+        this.year = year;
+    }
+    honk() {
+        console.log('BEEP BEEP!');
+    };
+    performMaintenance() {
+        setTimeout(function() {
+            console.log('maintenance complete')
+        }, 3 * 1000)
     }
 }
 
-const mySweetRide = new Car(
-    make, 'Pontiac',
-    model, 'Fiero',
-    year, 1988
-)
+const mySweetRide = new Car('Pontiac', 'Fiero', 1988);
+console.log(mySweetRide);
